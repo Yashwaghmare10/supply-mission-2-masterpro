@@ -2,7 +2,7 @@ class redBox {
     constructor(x, y, width, height) {
         var options = {
             isStatic: true,
-            'restitution': 0.8,
+            'restitution': 0.5,
             'friction': 0.3,
             'density': 1.0
         }
